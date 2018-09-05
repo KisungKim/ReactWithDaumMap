@@ -31,8 +31,6 @@ class StaticMap extends Component {
             'height': '200px',
             'border': '2px solid black'
         };
-        console.log("다시 그려집니다");
-
         return(<div hidden="true" id="staticMap" style={mapStyle}></div>);
 
     }
