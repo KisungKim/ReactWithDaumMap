@@ -86,3 +86,31 @@ title: "리액트와 다음지도(ReactApp&Daum API)"
 다음 지도 docs : <a href="http://apis.map.daum.net/web/sample/staticMapWithMarker/">이동하기</a>
 <br/>
 구현 코드 : <a href="https://github.com/KisungKim/ReactWithDaumMap/blob/master/DaumMapComponent_staticMap.js">이동하기</a>
+
+## (응용)사용자가 지도의 특정한 장소에 코멘트 적기(마커와 인포윈도우 이용)
+
+> DaumMapComponent_createMap.js와  DaumMapComponent_getUserInputAddress.js, DaumMapComponent_getUserInputMessage 를 참고하세요
+
+다음 지도 docs : 
+<br/>
+<br/>
+<a href="http://apis.map.daum.net/web/sample/basicMarkerImage/">이미지로 마커 생성하기</a>
+<br/>
+<a href="http://apis.map.daum.net/web/sample/addMarkerMouseEvent/">마우스오버에 따른 인포윈도우 표출</a>
+<br/>
+<br/>
+구현 코드 :
+<br/>
+<br/>
+> 먼저 DaumMapComponent_getUserInputAddress.js를 통해 사용자가 지도에서 코멘트를 남기고자 하는 위치에 마커를 표시합니다
+<br/>
+<a href="https://github.com/KisungKim/ReactWithDaumMap/blob/master/DaumMapComponent_getUserInputAddress.js">DaumMapComponent_getUserInputAddress.js</a>
+<br/>
+<br/>
+
+> DaumMapComponent_getUserInputMessage.js에서는 표시된 마커에 폼을 활용하여 코멘트를 제출합니다
+>
+> (참고) GetUserInputMessage는 GetUserInputAddress클래스의 render부분에서 import하여 사용합니다
+<br/>
+<a href="https://github.com/KisungKim/ReactWithDaumMap/blob/master/DaumMapComponent_getUserInputMessage.js">DaumMapComponent_getUserInputMessage.js</a>
+
