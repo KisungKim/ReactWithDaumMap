@@ -90,6 +90,8 @@ title: "리액트와 다음지도(ReactApp&Daum API)"
 ## (응용)사용자가 지도의 특정한 장소에 코멘트 적기(마커와 인포윈도우 이용)
 
 > DaumMapComponent_createMap.js와  DaumMapComponent_getUserInputAddress.js, DaumMapComponent_getUserInputMessage 를 참고하세요
+>
+> 참고동영상은 업로드된 sample1_compressed.mov를 참고하시면 됩니다
 
 다음 지도 docs : 
 <br/>
